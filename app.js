@@ -36,3 +36,5 @@ prompt everyone should volunteer at least once
 Change all the prompts to alerts
 */
 
+var placeLive = prompt('Does Amelia live in WA?');
+
