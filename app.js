@@ -1,7 +1,12 @@
 'use strict'
 
 /*
-About Amelia 
+User Stories: As a programmer, I want to greet the user and ask them questions about myself, so that they can know that I am a friendly person and they can know a little bit about me. Finally, I want to tell them goodbye.
+
+Feature Tasks:
+Greetings to user
+
+Questions: about Amelia, and how they will be answered
 
 Has Amelia studied Japanese?
 if they are right
@@ -33,25 +38,77 @@ if they are right
 else
 prompt everyone should volunteer at least once
 
-Change all the prompts to alerts
+Changed all the prompts to alerts.
+
+Final message to user
 */
 
+//Greeting
+var userGreeting = prompt('Hello, and Welcome to this website!');
+/*console.log('Have a nice day!' + userGreeting);*/
+alert('Have a nice day!' + userGreeting);
+
+//Question 1
+var str = prompt('Has Amelia studied Japanese?');
+var res = str.toLowerCase();
+
+if(str ==='yes' || str ==='no'){
+  /*console.log('Yes, she has.');*/
+  alert('Yes, she has.');
+} else {
+/*console.log('Try again');*/
+  alert('Try Again!');
+}
+
+//Question 2
 var str = prompt('Does Amelia live in WA?');
-var res = str.toLocaleLowerCase();
+var res = str.toLowerCase();
 
-if(str ==='yes'){
-  console.log('Yes, she lives in WA.');
+if(str ==='yes' || str ==='no'){
+  /*console.log('Yes, she lives in WA.');*/
+  alert('Yes, she lives in WA.');
 } else {
-console.log('You are wrong, try again');
+ /*console.log('You are wrong, try again');*/
+  alert('You are wrong, try again');
 }
 
-var studiedAbroad = prompt('Has Amelia lived in Japan');
+//Question 3
+var str = prompt('Has Amelia lived in Japan');
+var res = str.toLowerCase();
 
-if(studiedAbroad ==='yes'){
-  console.log('Yes, she has lived in Tokyo, Japan.');
+if(str ==='yes' || str ==='no'){
+  /*console.log('Yes, she has lived in Tokyo, Japan.');*/
+  alert('Yes, she has lived in Tokyo, Japan.');
 } else {
-console.log('She hasn\'t just lived in the United States.');
+ /*console.log('She hasn\'t just lived in the United States.');*/
+  alert('She hasn\'t just lived in the United States');
 }
 
+//Question 4
+var str = prompt('Does Amelia love animals?');
+var res = str.toLowerCase();
 
+if(str ==='yes' || str ==='no'){
+  /*console.log('Yes, of course she does.');*/
+  alert('Yes, of course she does.');
+} else {
+/*console.log('Who doesn\'t love animals?');*/
+  alert('Who doesn\'t love animals?');
+}
 
+//Question 5
+var str = prompt('Has Amelia volunteered before?');
+var res = str.toLowerCase();
+
+if(str ==='yes' || str ==='no'){
+  /*console.log('Yes, at a animal shelter and at church.');*/
+  alert('Yes, at a animal shelter and at church.');
+} else {
+  /*console.log('Its good to volunteer.');*/
+  alert('Its good to volunteer.');
+}
+
+//Final Message
+var userFinalBye = prompt('Goodbye! Please come back to visit to this website again!');
+  /*console.log('Have a nice day!' + userFinalBye);*/
+  alert('Have a nice day!' + userFinalBye);
