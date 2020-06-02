@@ -36,5 +36,22 @@ prompt everyone should volunteer at least once
 Change all the prompts to alerts
 */
 
-var placeLive = prompt('Does Amelia live in WA?');
+var str = prompt('Does Amelia live in WA?');
+var res = str.toLocaleLowerCase();
+
+if(str ==='yes'){
+  console.log('Yes, she lives in WA.');
+} else {
+console.log('You are wrong, try again');
+}
+
+var studiedAbroad = prompt('Has Amelia lived in Japan');
+
+if(studiedAbroad ==='yes'){
+  console.log('Yes, she has lived in Tokyo, Japan.');
+} else {
+console.log('She hasn\'t just lived in the United States.');
+}
+
+
 
