@@ -111,4 +111,4 @@ if(str ==='yes' || str ==='no'){
 //Final Message
 var userName = prompt('What\'s your name?');
   /*console.log('Have a nice day!' + userName);*/
-  alert('Have a nice day!' + userName);
+  alert('Have a nice day! ' + userName);
