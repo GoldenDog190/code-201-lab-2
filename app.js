@@ -109,6 +109,6 @@ if(str ==='yes' || str ==='no'){
 }
 
 //Final Message
-var userFinalBye = prompt('Goodbye! Please come back to visit to this website again!');
-  /*console.log('Have a nice day!' + userFinalBye);*/
-  alert('Have a nice day!' + userFinalBye);
+var userName = prompt('What\'s your name?');
+  /*console.log('Have a nice day!' + userName);*/
+  alert('Have a nice day!' + userName);
