@@ -1,5 +1,10 @@
 # code-201-lab-2
 About Me App
+
+Author: Amelia Waggoner
+
+Copyright (c) 2020 Amelia Waggoner
+
 <!DOCTYPE html>
 <html>
 
