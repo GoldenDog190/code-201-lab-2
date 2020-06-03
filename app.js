@@ -43,16 +43,16 @@ Changed all the prompts to alerts.
 Final message to user
 */
 
-//Greeting
-var userGreeting = prompt('Hello, and Welcome to this website!');
+//=============Greeting===============
+var userGreeting = prompt('Hello, and Welcome to this website!').toLowerCase();
 /*console.log('Have a nice day!' + userGreeting);*/
 alert('Have a nice day!' + userGreeting);
 
-//Question 1
-var str = prompt('Has Amelia studied Japanese?');
-var res = str.toLowerCase();
+//==============Question 1============
+var languageStudy = prompt('Has Amelia studied Japanese?');
+var languageStudyLowerCase = languageStudy.toLowerCase();
 
-if(str ==='yes' || str ==='no'){
+if(languageStudy ==='yes' || languageStudy ==='no'){
   /*console.log('Yes, she has.');*/
   alert('Yes, she has.');
 } else {
@@ -60,11 +60,11 @@ if(str ==='yes' || str ==='no'){
   alert('Try Again!');
 }
 
-//Question 2
-var str = prompt('Does Amelia live in WA?');
-var res = str.toLowerCase();
+//========Question 2=================
+var liveWa = prompt('Does Amelia live in WA?');
+var liveWaLowerCase = liveWa.toLowerCase();
 
-if(str ==='yes' || str ==='no'){
+if(liveWa ==='yes' || liveWa ==='no'){
   /*console.log('Yes, she lives in WA.');*/
   alert('Yes, she lives in WA.');
 } else {
@@ -72,11 +72,11 @@ if(str ==='yes' || str ==='no'){
   alert('You are wrong, try again');
 }
 
-//Question 3
-var str = prompt('Has Amelia lived in Japan');
-var res = str.toLowerCase();
+//==========Question 3===============
+var liveJapan = prompt('Has Amelia lived in Japan');
+var liveJapanLowerCase = liveJapan.toLowerCase();
 
-if(str ==='yes' || str ==='no'){
+if(liveJapan ==='yes' || liveJapan ==='no'){
   /*console.log('Yes, she has lived in Tokyo, Japan.');*/
   alert('Yes, she has lived in Tokyo, Japan.');
 } else {
@@ -84,11 +84,11 @@ if(str ==='yes' || str ==='no'){
   alert('She hasn\'t just lived in the United States');
 }
 
-//Question 4
-var str = prompt('Does Amelia love animals?');
-var res = str.toLowerCase();
+//=========Question 4============
+var loveAnimals = prompt('Does Amelia love animals?');
+var loveAnimalsLowerCase = loveAnimals.toLowerCase();
 
-if(str ==='yes' || str ==='no'){
+if(loveAnimals ==='yes' || loveAnimals ==='no'){
   /*console.log('Yes, of course she does.');*/
   alert('Yes, of course she does.');
 } else {
@@ -96,11 +96,11 @@ if(str ==='yes' || str ==='no'){
   alert('Who doesn\'t love animals?');
 }
 
-//Question 5
-var str = prompt('Has Amelia volunteered before?');
-var res = str.toLowerCase();
+//=========Question 5============
+var haveVolunteered = prompt('Has Amelia volunteered before?');
+var haveVolunteeredLowerCase = haveVolunteered.toLowerCase();
 
-if(str ==='yes' || str ==='no'){
+if(haveVolunteered ==='yes' || haveVolunteered ==='no'){
   /*console.log('Yes, at a animal shelter and at church.');*/
   alert('Yes, at a animal shelter and at church.');
 } else {
@@ -108,7 +108,7 @@ if(str ==='yes' || str ==='no'){
   alert('Its good to volunteer.');
 }
 
-//Final Message
+//======Final Message========
 var userName = prompt('What\'s your name?');
   /*console.log('Have a nice day!' + userName);*/
   alert('Have a nice day! ' + userName);
