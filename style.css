@@ -18,31 +18,34 @@ body{
   padding-top: 15px;
 }
 
-header{
+.header{
   text-align: center;
   font-size: 25px;
   color: azure;
   padding: 25px;
 }
-
+.h2{
+  text-align: center;
+  color: darkblue;
+  display:inline-block;
+  padding: 50px;
+}
 p{
   text-align: center;
   color: darkblue;
-  display:inline-block
-  max-width:
-  padding:50px;
+  display:inline-block;
+  padding: 50px;
+  
 }
-footer{
+ol{
+  text-align: center;
+  color: darkblue;
+  display:inline-block;
+  padding: 50px;
+}
+
+.footer{
   text-align: center;
   color: azure;
   padding:10px;
-}
-
-
-p:first-of-type{
-  border:beige 9px 6px 3px;
-  padding:10px 20px 30px 40px;
-  margin: 50px 200px;
-  width:200px;
-  box-sizing: border-box;
 }
