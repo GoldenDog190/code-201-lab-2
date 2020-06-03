@@ -60,35 +60,54 @@ alert('Its good to volunteer.');
 
 // //==========Question 6==============
 
-var ameliaAge = '28';
-var chancesGuess = 4;
 var numberGame = prompt('What is Amelia\'s age?');
-
-for(var i =24; i < chancesGuess; i++){
+var ameliaAge = '28';
+while(numberGame){
    var chancesGuess = prompt('Guess my age?')
-   if(numberGame === ameliaAge){
+   if(numberGame === ameliaAge || numberGame >= '26' || numberGame <= '30'){
      alert('You are correct. Amelia is 28 years old.');
    } else if (numberGame >= '26'){
     alert('You are too low');
    } else if (numberGame <= '30'){
     alert('You are too high');
+    } else{
+      alert('You are correct');
     }
  }
 // //=========Question 7=============
-var firstPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
-var Place = 0;
-while(japanPlace)
+var japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
 
+for(var index = 0; index < 3; index++){
+  if(firstArray[index] === 'Tokyo'){
+  alert(firstArray[index]);
+  } else if {
+
+  }
 //====Score===
+var msgBack;
+var score = 7;
+
+switch(score){
+  score 0:
+  msg = 'Better luck next time';
+  break;
+  
+  default:
+  msg = 'Great job!';
+  break;
+}
+var answer = document.getElementById('answer');
+answer.textContent = msgBack;
+
 var haveScored = prompt('Did you get all the answers right?');
 var haveScoredLowerCase = haveScored.toLowerCase();
 
 if(haveScored ==='yes' || haveScored ==='no'){
-  alert('Good job!');
+  alert('Good job! 7 out of 7!');
   } else {
   alert('Too bad!.');
        }
-       
+
 // //======Final Message========
 var userName = prompt('What\'s your name?');
 //   /*console.log('Have a nice day!' + userName);*/
