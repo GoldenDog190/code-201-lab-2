@@ -1,4 +1,30 @@
+head{
+  font-weight: bold;
+  font-family: serif;
+  color: azure;
+  background-color: darkcyan;
+}
+
 body{
   font-weight:bold;
-  font-family:sans-serif
+  font-family:serif;
+  color:darkblue;
+  background-color: cornflowerblue;
+}
+
+header{
+  text-align: center;
+  color: azure;
+  padding: 10px;
+}
+
+p{
+  text-align: center;
+  color: darkblue;
+  padding:30px;
+}
+footer{
+  text-align: center;
+  color: azure;
+  padding:10px;
 }
