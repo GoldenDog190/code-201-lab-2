@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*
 User Stories: As a programmer, I want to greet the user and ask them questions about myself, so that they can know that I am a friendly person and they can know a little bit about me. Finally, I want to tell them goodbye.
@@ -8,35 +8,49 @@ Greetings to user
 
 Questions: about Amelia, and how they will be answered
 
+#1
 Has Amelia studied Japanese?
 if they are right
   yes, she has
 else
  prompt try again
 
+ #2
 Does Amelia live in WA?
 if they are right 
   Yes, she lives in WA
 else 
 prompt wrong
 
+#3
 Has Amelia lived in Japan?
 if they are right
   yes, she has lived in Japan
 else
 prompt She hasn't just lived in the U.S.
 
+#4
 Does Amelia love animals?
 if they are right
  of course she does
 else
 prompt who doesn't love animals
 
+#5
 Has Amelia volunteered before?
 if they are right 
   yes she has
 else
 prompt everyone should volunteer at least once
+
+#6
+How old is Amelia?
+Using a for loop give 4 chances, and give correct answer at the end.
+
+#7
+What are the top sites to see in Japan?
+Use a loop and an array to guess 6 attempts. Display possible correct answers to user at the end.
+
 
 Changed all the prompts to alerts.
 
@@ -108,7 +122,33 @@ if(haveVolunteered ==='yes' || haveVolunteered ==='no'){
   alert('Its good to volunteer.');
 }
 
+//==========Question 6==============
+
+var ameliaAge = '28';
+var chancesGuess = 4;
+var numberGame = prompt('What is Amelia\'s age?');
+for(var i =24; i < chancesGuess; i++){
+  var chancesGuess = prompt('Guess my age?')
+  if(numberGame === ameliaAge){
+    alert('You are correct. Amelia is 28 years old.');
+  } else {
+    alert('Try Again');
+  }
+}
+//=========Question 7=============
+var firstPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+
+for(var index = 0; index < 6; index++){
+  if(firstPlace[index]=== 'Tokyo'){
+    alert(firstPlace[index] + ' is a anmazing place to go visit!');
+}
+
+for(var i = 0; i < firstPlace.length; itt){
+  alert(firstPlace[i]);
+}
+
+
 //======Final Message========
 var userName = prompt('What\'s your name?');
   /*console.log('Have a nice day!' + userName);*/
-  alert('Have a nice day! ' + userName);
+ alert('Have a nice day! ' + userName);
