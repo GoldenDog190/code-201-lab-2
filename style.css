@@ -8,23 +8,25 @@ head{
 body{
   font-weight:bold;
   font-family:serif;
+  font-size: 18px;
   color:darkblue;
   background-color: cornflowerblue;
 }
 
 header{
   text-align: center;
+  font-size: 25px;
   color: azure;
-  padding: 10px;
+  padding: 25px 25px;
 }
 
 p{
   text-align: center;
   color: darkblue;
-  padding:30px;
+  padding:50px 50px;
 }
 footer{
   text-align: center;
   color: azure;
-  padding:10px;
+  padding:10px 10px;
 }
