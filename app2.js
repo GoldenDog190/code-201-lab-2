@@ -1,7 +1,6 @@
 'use strict'
 //Question 1
-var languageStudy = prompt('Has Amelia studied Japanese?');
-var languageStudyLowerCase = languageStudy.toLowerCase();
+var languageStudy = prompt('Has Amelia studied Japanese?').toLowerCase();
 
 if(languageStudy ==='yes' || languageStudy ==='y'){
 //   /*console.log('Yes, she has.');*/
@@ -91,7 +90,7 @@ place: while(counter < 6){
   var answerGuess = prompt('Guess which places I have been to?');
   //alert(japanPlace[i]);
   if(answerGuess === japanPlace[i]){
-  alert(japanPlace[i] + 'is correct.')
+  alert(japanPlace[i] + 'is correct.')liv
   break place;
   } else {
   alert ('Guess Again');
