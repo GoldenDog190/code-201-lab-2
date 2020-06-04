@@ -60,9 +60,9 @@ alert('Its good to volunteer.');
 
 // //==========Question 6==============
 
-var numberGame = prompt('What is Amelia\'s age?');
 var ameliaAge = '28';
-while(numberGame){
+var counter = 0;
+while(counter < 4){
    var chancesGuess = prompt('Guess my age?')
    if(numberGame === ameliaAge || numberGame >= '26' || numberGame <= '30'){
      alert('You are correct. Amelia is 28 years old.');
@@ -73,25 +73,49 @@ while(numberGame){
     } else{
       alert('You are correct');
     }
+    counter++;
  }
 // //=========Question 7=============
 var japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+var placeNumber = 0;
 
-for(var index = 0; index < 3; index++){
-  if(firstArray[index] === 'Tokyo'){
-  alert(firstArray[index]);
-  } else if {
-
-  }
+while(placeNumber < japanPlace.length){
+japanPlace[placeNumber] === Tokyo;
+animalNumber++;
+}
 //====Score===
 var msgBack;
 var score = 7;
 
 switch(score){
-  score 0:
+  case 0:
   msg = 'Better luck next time';
   break;
+
+  case 1:
+  msg = 'Try Again';
+  break;
+
+  case 2:
+  msg = 'Try Again';
+  break;
   
+  case 3:
+    msg = 'Try Again';
+    break;
+  
+  case 4:
+    msg = 'Try Again';
+    break;
+
+  case 5:
+    msg = 'Try Again';
+    break;
+
+  case 6:
+    msg = 'Try Again';
+    break;
+
   default:
   msg = 'Great job!';
   break;
