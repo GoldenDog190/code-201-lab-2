@@ -100,47 +100,6 @@ place: while(counter < 6){
 }
 
 //====Score===
-
-// var alertBack;
-// var score = 7;
-
-// switch(score){
-//   case 0:
-//   alert = 'Better luck next time';
-//   break;
-
-//   case 1:
-//   alert = 'Try Again';
-//   break;
-
-//   case 2:
-//   alert = 'Try Again';
-//   break;
-  
-//   case 3:
-//     alert = 'Try Again';
-//     break;
-  
-//   case 4:
-//     alert = 'Try Again';
-//     break;
-
-//   case 5:
-//     alert = 'Try Again';
-//     break;
-
-//   case 6:
-//     alert = 'Try Again';
-//     break;
-
-//   default:
-//   alert = 'Great job!';
-//   break;
-// }
-
-var answer = document.getElementById('answer');
-answer.textContent = msgBack;
-
 var haveScored = prompt('Did you get all the answers right?');
 var haveScoredLowerCase = haveScored.toLowerCase();
 
