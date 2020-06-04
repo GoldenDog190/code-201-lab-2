@@ -33,16 +33,20 @@ function northWest() {
 northWest();
 
 // //==========Question 3===============
-var liveJapan = prompt('Has Amelia lived in Japan');
-var liveJapanLowerCase = liveJapan.toLowerCase();
 
-if(liveJapan ==='yes' || liveJapan === 'y'){
-//   /*console.log('Yes, she has lived in Tokyo, Japan.');*/
-  alert('Yes, she has lived in Tokyo, Japan.');
-} else if (liveJapan ==='no' || liveJapan === 'n') {
-//  /*console.log('She hasn\'t just lived in the United States.');*/
-  alert('She hasn\'t just lived in the United States');
+function japanAbroad() {
+  var liveJapan = prompt('Has Amelia lived in Japan').toLowerCase();
+
+  if(liveJapan ==='yes' || liveJapan === 'y'){
+    //   /*console.log('Yes, she has lived in Tokyo, Japan.');*/
+    alert('Yes, she has lived in Tokyo, Japan.');
+  } else if (liveJapan ==='no' || liveJapan === 'n') {
+    //  /*console.log('She hasn\'t just lived in the United States.');*/
+    alert('She hasn\'t just lived in the United States');
+  }
 }
+
+japanAbroad();
 
 // // //=========Question 4============
 var loveAnimals = prompt('Does Amelia love animals?');
