@@ -1,3 +1,4 @@
+'use strict'
 //Question 1
 var languageStudy = prompt('Has Amelia studied Japanese?');
 var languageStudyLowerCase = languageStudy.toLowerCase();
@@ -58,70 +59,84 @@ alert('Yes, at a animal shelter and at church.');
 alert('Its good to volunteer.');
      }
 
-// //==========Question 6==============
+//==========Question 6==============
 
 var ameliaAge = '28';
 var counter = 0;
 while(counter < 4){
-   var chancesGuess = prompt('Guess my age?')
-   if(numberGame === ameliaAge || numberGame >= '26' || numberGame <= '30'){
+   var chancesGuess = prompt('Guess my age?');
+   console.log('chances guess', typeof chancesGuess);
+   if(chancesGuess === ameliaAge){
      alert('You are correct. Amelia is 28 years old.');
-   } else if (numberGame >= '26'){
+     break;
+   } else if (chancesGuess > ameliaAge){
     alert('You are too low');
-   } else if (numberGame <= '30'){
+    counter++;
+   } else if (chancesGuess < ameliaAge){
     alert('You are too high');
+    counter++;
     } else{
       alert('You are correct');
+      counter++;
     }
-    counter++;
  }
 // //=========Question 7=============
-
-var japanPlace, jLen, i;
-japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
-jLen = japanPlace.length;
-for(i = 0; i < jLen; itt) {
-  alert(japanPlace[i]);
+var counter = 0;
+place: while(counter < 6){
+  var japanPlace, jLen;
+  japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+  jLen = japanPlace.length;
+  
+  for(var i = 0; i < jLen; i++) {
+  var answerGuess = prompt('Guess which places I have been to?');
+  //alert(japanPlace[i]);
+  if(answerGuess === japanPlace[i]){
+  alert(japanPlace[i] + 'is correct.')
+  break place;
+  } else {
+  alert ('Guess Again');
+         }
+  }
 }
 
 //====Score===
 
-var alertBack;
-var score = 7;
+// var alertBack;
+// var score = 7;
 
-switch(score){
-  case 0:
-  alert = 'Better luck next time';
-  break;
+// switch(score){
+//   case 0:
+//   alert = 'Better luck next time';
+//   break;
 
-  case 1:
-  alert = 'Try Again';
-  break;
+//   case 1:
+//   alert = 'Try Again';
+//   break;
 
-  case 2:
-  alert = 'Try Again';
-  break;
+//   case 2:
+//   alert = 'Try Again';
+//   break;
   
-  case 3:
-    alert = 'Try Again';
-    break;
+//   case 3:
+//     alert = 'Try Again';
+//     break;
   
-  case 4:
-    alert = 'Try Again';
-    break;
+//   case 4:
+//     alert = 'Try Again';
+//     break;
 
-  case 5:
-    alert = 'Try Again';
-    break;
+//   case 5:
+//     alert = 'Try Again';
+//     break;
 
-  case 6:
-    alert = 'Try Again';
-    break;
+//   case 6:
+//     alert = 'Try Again';
+//     break;
 
-  default:
-  alert = 'Great job!';
-  break;
-}
+//   default:
+//   alert = 'Great job!';
+//   break;
+// }
 
 var answer = document.getElementById('answer');
 answer.textContent = msgBack;

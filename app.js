@@ -1,4 +1,4 @@
-'use strict'
+
 
 /*
 User Stories: As a programmer, I want to greet the user and ask them questions about myself, so that they can know that I am a friendly person and they can know a little bit about me. Finally, I want to tell them goodbye.
