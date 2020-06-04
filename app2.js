@@ -86,42 +86,43 @@ for(i = 0; i < jLen; itt) {
 
 //====Score===
 
-var msgBack;
+var alertBack;
 var score = 7;
 
 switch(score){
   case 0:
-  msg = 'Better luck next time';
+  alert = 'Better luck next time';
   break;
 
   case 1:
-  msg = 'Try Again';
+  alert = 'Try Again';
   break;
 
   case 2:
-  msg = 'Try Again';
+  alert = 'Try Again';
   break;
   
   case 3:
-    msg = 'Try Again';
+    alert = 'Try Again';
     break;
   
   case 4:
-    msg = 'Try Again';
+    alert = 'Try Again';
     break;
 
   case 5:
-    msg = 'Try Again';
+    alert = 'Try Again';
     break;
 
   case 6:
-    msg = 'Try Again';
+    alert = 'Try Again';
     break;
 
   default:
-  msg = 'Great job!';
+  alert = 'Great job!';
   break;
 }
+
 var answer = document.getElementById('answer');
 answer.textContent = msgBack;
 
