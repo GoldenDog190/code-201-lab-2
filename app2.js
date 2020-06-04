@@ -76,8 +76,6 @@ while(counter < 4){
     counter++;
  }
 // //=========Question 7=============
-var visitPlaces = prompt('What are the top places to visit in Japan?');
-var visitPlacesLowerCase = visitPlaces.toLowerCase();
 
 var japanPlace, jLen, i;
 japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
