@@ -34,7 +34,7 @@ alert('Yes, she has lived in Tokyo, Japan.');
 alert('She hasn\'t just lived in the United States');
    }
 
-// //=========Question 4============
+// // //=========Question 4============
  var loveAnimals = prompt('Does Amelia love animals?');
  var loveAnimalsLowerCase = loveAnimals.toLowerCase();
 
@@ -46,7 +46,7 @@ if(loveAnimals ==='yes' || loveAnimals ==='y'){
   alert('Sorry, that is incoreect.');
    }
 
-// //=========Question 5============
+// // //=========Question 5============
 var haveVolunteered = prompt('Has Amelia volunteered before?');
 var haveVolunteeredLowerCase = haveVolunteered.toLowerCase();
 
@@ -58,7 +58,7 @@ alert('Yes, at a animal shelter and at church.');
 alert('Its good to volunteer.');
      }
 
-//==========Question 6==============
+// //==========Question 6==============
 
 var ameliaAge = '28';
 var counter = 0;
@@ -79,7 +79,7 @@ while(counter < 4){
       counter++;
     }
  }
-// //=========Question 7=============
+// // //=========Question 7=============
 var counter = 0;
 place: while(counter < 6){
   var japanPlace, jLen;
@@ -90,7 +90,7 @@ place: while(counter < 6){
   var answerGuess = prompt('Guess which places I have been to?');
   //alert(japanPlace[i]);
   if(answerGuess === japanPlace[i]){
-  alert(japanPlace[i] + 'is correct.')liv
+  alert(japanPlace[i] + 'is correct.')
   break place;
   } else {
   alert ('Guess Again');
