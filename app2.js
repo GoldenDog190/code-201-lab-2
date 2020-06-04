@@ -1,6 +1,7 @@
 'use strict';
 
 //Question 1
+
 function jsLanguage() {
   var languageStudy = prompt('Has Amelia studied Japanese?').toLowerCase();
 
@@ -16,16 +17,20 @@ function jsLanguage() {
 jsLanguage();
 
 //========Question 2=================
-var liveWa = prompt('Does Amelia live in WA?');
-var liveWaLowerCase = liveWa.toLowerCase();
 
-if(liveWa ==='yes' || liveWa === 'y'){
-//   /*console.log('Yes, she lives in WA.');*/
-  alert('Yes, she lives in WA.');
-} else if (liveWa ==='no' || liveWa === 'n'){
-//  /*console.log('You are wrong, try again');*/
-  alert('You are wrong, try again');
+function northWest() {
+  var liveWa = prompt('Does Amelia live in WA?').toLowerCase();
+
+  if(liveWa ==='yes' || liveWa === 'y'){
+    //   /*console.log('Yes, she lives in WA.');*/
+    alert('Yes, she lives in WA.');
+  } else if (liveWa ==='no' || liveWa === 'n'){
+    //  /*console.log('You are wrong, try again');*/
+    alert('You are wrong, try again');
+  }
 }
+
+northWest();
 
 // //==========Question 3===============
 var liveJapan = prompt('Has Amelia lived in Japan');
