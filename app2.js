@@ -100,98 +100,98 @@ place: while(counter < 6){
 }
  alert('You got' + counter + 'out of six.' + 'These are all the places I have been to' + japanPlace + '.');
 
-//====Score===
-var questionOne = '1 point';
-var questionTwo = '2 points';
-var questionThree = '3 points';
-var questionFour = '4 points';
-var questionFive = '5 points';
-var questionSix = '6 points';
-var questionSeven = '7 points';
+// //====Score===
+// var questionOne = '1 point';
+// var questionTwo = '2 points';
+// var questionThree = '3 points';
+// var questionFour = '4 points';
+// var questionFive = '5 points';
+// var questionSix = '6 points';
+// var questionSeven = '7 points';
 
-//=====Score1======
-var nowScoreOne = prompt('Did you get question 1 correct?');
-var nowScoredOneLowerCase = nowScoredOne.toLowerCase();
+// //=====Score1======
+// var nowScoreOne = prompt('Did you get question 1 correct?');
+// var nowScoredOneLowerCase = nowScoredOne.toLowerCase();
 
-if(nowScoredOne ==='yes' || nowScoreOne ==='y'){
-  alert('You got ' + questionOne + '!');
-  } else if (nowScoredOne ==='no' || nowScoreOne === 'n'){
-  alert('0 points');
-       }
+// if(nowScoredOne ==='yes' || nowScoreOne ==='y'){
+//   alert('You got ' + questionOne + '!');
+//   } else if (nowScoredOne ==='no' || nowScoreOne === 'n'){
+//   alert('0 points');
+//        }
 
-//======Score2=====
-var nowScoreTwo = prompt('Did you get question 2 correct?');
-var nowScoredTwoLowerCase = nowScoredTwo.toLowerCase();
+// //======Score2=====
+// var nowScoreTwo = prompt('Did you get question 2 correct?');
+// var nowScoredTwoLowerCase = nowScoredTwo.toLowerCase();
        
-if(nowScoredTwo ==='yes' || nowScoreTwo ==='y'){
- alert('You got ' + questionTwo + '!');
-} else if (nowScoredTwo ==='no' || nowScoreTwo === 'n'){
- alert('0 points');
-     }
+// if(nowScoredTwo ==='yes' || nowScoreTwo ==='y'){
+//  alert('You got ' + questionTwo + '!');
+// } else if (nowScoredTwo ==='no' || nowScoreTwo === 'n'){
+//  alert('0 points');
+//      }
 
- //======Score3=====    
-var nowScoreThree = prompt('Did you get question 3 correct?');
-var nowScoredThreeLowerCase = nowScoredThree.toLowerCase();
+//  //======Score3=====    
+// var nowScoreThree = prompt('Did you get question 3 correct?');
+// var nowScoredThreeLowerCase = nowScoredThree.toLowerCase();
             
-if(nowScoredThree ==='yes' || nowScoreThree ==='y'){
-alert('You got ' + questionThree + '!');
-} else if (nowScoredThree ==='no' || nowScoreThree === 'n'){
-alert('0 points');
-    }
+// if(nowScoredThree ==='yes' || nowScoreThree ==='y'){
+// alert('You got ' + questionThree + '!');
+// } else if (nowScoredThree ==='no' || nowScoreThree === 'n'){
+// alert('0 points');
+//     }
 
- //======Score4=====    
- var nowScoreFour = prompt('Did you get question 4 correct?');
- var nowScoredFourLowerCase = nowScoredFour.toLowerCase();
+//  //======Score4=====    
+//  var nowScoreFour = prompt('Did you get question 4 correct?');
+//  var nowScoredFourLowerCase = nowScoredFour.toLowerCase();
              
- if(nowScoredFour ==='yes' || nowScoreFour ==='y'){
- alert('You got ' + questionFour + '!');
- } else if (nowScoredFour ==='no' || nowScoreFour === 'n'){
- alert('0 points');
-     }
+//  if(nowScoredFour ==='yes' || nowScoreFour ==='y'){
+//  alert('You got ' + questionFour + '!');
+//  } else if (nowScoredFour ==='no' || nowScoreFour === 'n'){
+//  alert('0 points');
+//      }
 
- //======Score5=====    
- var nowScoreFive = prompt('Did you get question 5 correct?');
- var nowScoredFiveLowerCase = nowScoredFive.toLowerCase();
+//  //======Score5=====    
+//  var nowScoreFive = prompt('Did you get question 5 correct?');
+//  var nowScoredFiveLowerCase = nowScoredFive.toLowerCase();
              
- if(nowScoredFive ==='yes' || nowScoreFive ==='y'){
- alert('You got ' + questionFive + '!');
- } else if(nowScoredFive ==='no' || nowScoreFive === 'n'){
- alert('0 points');
-     }
+//  if(nowScoredFive ==='yes' || nowScoreFive ==='y'){
+//  alert('You got ' + questionFive + '!');
+//  } else if(nowScoredFive ==='no' || nowScoreFive === 'n'){
+//  alert('0 points');
+//      }
 
- //======Score6=====    
- var nowScoreSix = prompt('Did you get question 6 correct?');
- var nowScoredSixLowerCase = nowScoredSix.toLowerCase();
+//  //======Score6=====    
+//  var nowScoreSix = prompt('Did you get question 6 correct?');
+//  var nowScoredSixLowerCase = nowScoredSix.toLowerCase();
              
- if(nowScoredSix ==='yes' || nowScoreSix ==='y'){
- alert('You got ' + questionSix + '!');
- } else if(nowScoredSix ==='no' || nowScoreSix === 'n') {
- alert('0 points');
-     }
+//  if(nowScoredSix ==='yes' || nowScoreSix ==='y'){
+//  alert('You got ' + questionSix + '!');
+//  } else if(nowScoredSix ==='no' || nowScoreSix === 'n') {
+//  alert('0 points');
+//      }
 
- //======Score7=====    
- var nowScoreSeven = prompt('Did you get most of question 7 correct?');
- var nowScoredSevenLowerCase = nowScoredSeven.toLowerCase();
+//  //======Score7=====    
+//  var nowScoreSeven = prompt('Did you get most of question 7 correct?');
+//  var nowScoredSevenLowerCase = nowScoredSeven.toLowerCase();
              
- if(nowScoredSeven ==='yes' || nowScoreSeven ==='y'){
- alert('You got ' + questionSeven + '!');
- } else if (nowScoredSeven ==='no' || nowScoreSeven === 'n'){
- alert('0 points');
-     }
+//  if(nowScoredSeven ==='yes' || nowScoreSeven ==='y'){
+//  alert('You got ' + questionSeven + '!');
+//  } else if (nowScoredSeven ==='no' || nowScoreSeven === 'n'){
+//  alert('0 points');
+//      }
 
- //======Final Score=====    
- var nowScoreFinal = prompt('Did you get all the answers correct?');
- var nowScoredFinalLowerCase = nowScoredFinal.toLowerCase();
+//  //======Final Score=====    
+//  var nowScoreFinal = prompt('Did you get all the answers correct?');
+//  var nowScoredFinalLowerCase = nowScoredFinal.toLowerCase();
              
- if(nowScoredFinal ==='yes' || nowScoreFinal ==='y'){
- alert('If you got all the questions correct ' + questionSeven + ' ! You have won!');
- } else if (nowScoredFinal ==='no' || nowScoreFinal === 'n'){
- alert('You have lost! You needed ' + questionSeven + ' to win.');
-     }
+//  if(nowScoredFinal ==='yes' || nowScoreFinal ==='y'){
+//  alert('If you got all the questions correct ' + questionSeven + ' ! You have won!');
+//  } else if (nowScoredFinal ==='no' || nowScoreFinal === 'n'){
+//  alert('You have lost! You needed ' + questionSeven + ' to win.');
+//      }
 
-// //======Final Message========
-var userName = prompt('What\'s your name?');
-//   /*console.log('Have a nice day!' + userName);*/
- alert('Have a nice day! ' + userName);
+// // //======Final Message========
+// var userName = prompt('What\'s your name?');
+// //   /*console.log('Have a nice day!' + userName);*/
+//  alert('Have a nice day! ' + userName);
 
 
