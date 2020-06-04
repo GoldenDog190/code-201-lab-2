@@ -82,25 +82,31 @@ animalVol();
 
 // //==========Question 6==============
 
-var ameliaAge = '28';
-var counter = 0;
-while(counter < 4){
-  var chancesGuess = prompt('Guess my age?');
-  console.log('chances guess', typeof chancesGuess);
-  if(chancesGuess === ameliaAge){
-    alert('You are correct. Amelia is 28 years old.');
-    break;
-  } else if (chancesGuess > ameliaAge){
-    alert('You are too low');
-    counter++;
-  } else if (chancesGuess < ameliaAge){
-    alert('You are too high');
-    counter++;
-  } else{
-    alert('You are correct');
-    counter++;
+function twentyEight() {
+
+  var ameliaAge = '28';
+  var counter = 0;
+  while(counter < 4){
+    var chancesGuess = prompt('Guess my age?');
+    console.log('chances guess', typeof chancesGuess);
+    if(chancesGuess === ameliaAge){
+      alert('You are correct. Amelia is 28 years old.');
+      break;
+    } else if (chancesGuess > ameliaAge){
+      alert('You are too low');
+      counter++;
+    } else if (chancesGuess < ameliaAge){
+      alert('You are too high');
+      counter++;
+    } else{
+      alert('You are correct');
+      counter++;
+    }
   }
 }
+
+twentyEight();
+
 // // //=========Question 7=============
 var counter = 0;
 place: while(counter < 6){
