@@ -49,16 +49,20 @@ function japanAbroad() {
 japanAbroad();
 
 // // //=========Question 4============
-var loveAnimals = prompt('Does Amelia love animals?');
-var loveAnimalsLowerCase = loveAnimals.toLowerCase();
 
-if(loveAnimals ==='yes' || loveAnimals ==='y'){
-//   /*console.log('Yes, of course she does.');*/
-  alert('Yes, of course she does.');
-} else if (loveAnimals === 'no' || loveAnimals === 'n'){
-// /*console.log('Who doesn\'t love animals?');*/
-  alert('Sorry, that is incoreect.');
+function catDog() {
+  var loveAnimals = prompt('Does Amelia love animals?').toLowerCase();
+
+  if(loveAnimals ==='yes' || loveAnimals ==='y'){
+    //   /*console.log('Yes, of course she does.');*/
+    alert('Yes, of course she does.');
+  } else if (loveAnimals === 'no' || loveAnimals === 'n'){
+    // /*console.log('Who doesn\'t love animals?');*/
+    alert('Sorry, that is incoreect.');
+  }
 }
+
+catDog();
 
 // // //=========Question 5============
 var haveVolunteered = prompt('Has Amelia volunteered before?');
