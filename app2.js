@@ -65,16 +65,20 @@ function catDog() {
 catDog();
 
 // // //=========Question 5============
-var haveVolunteered = prompt('Has Amelia volunteered before?');
-var haveVolunteeredLowerCase = haveVolunteered.toLowerCase();
 
-if(haveVolunteered ==='yes' || haveVolunteered ==='y'){
-//   /*console.log('Yes, at a animal shelter and at church.');*/
-  alert('Yes, at a animal shelter and at church.');
-} else if (haveVolunteered ==='no' || haveVolunteered ==='n') {
-//   /*console.log('Its good to volunteer.');*/
-  alert('Its good to volunteer.');
+function animalVol() {
+  var haveVolunteered = prompt('Has Amelia volunteered before?').toLowerCase();
+
+  if(haveVolunteered ==='yes' || haveVolunteered ==='y'){
+    //   /*console.log('Yes, at a animal shelter and at church.');*/
+    alert('Yes, at a animal shelter and at church.');
+  } else if (haveVolunteered ==='no' || haveVolunteered ==='n') {
+    //   /*console.log('Its good to volunteer.');*/
+    alert('Its good to volunteer.');
+  }
 }
+
+animalVol();
 
 // //==========Question 6==============
 
