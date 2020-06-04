@@ -3,10 +3,10 @@
 var languageStudy = prompt('Has Amelia studied Japanese?');
 var languageStudyLowerCase = languageStudy.toLowerCase();
 
-if(languageStudy ==='yes' && languageStudy ==='y' || languageStudy ==='no' && languageStudy ==='n'){
+if(languageStudy ==='yes' || languageStudy ==='y'){
 //   /*console.log('Yes, she has.');*/
    alert('Yes, she has.');
-   } else {
+   } else if (languageStudy ==='no' || languageStudy ==='n'){
 //  /*console.log('Try again');*/
    alert('Try Again!');
    }
@@ -15,10 +15,10 @@ if(languageStudy ==='yes' && languageStudy ==='y' || languageStudy ==='no' && la
 var liveWa = prompt('Does Amelia live in WA?');
 var liveWaLowerCase = liveWa.toLowerCase();
 
-if(liveWa ==='yes' && liveWa === 'y'|| liveWa ==='no' && liveWa === 'n'){
+if(liveWa ==='yes' || liveWa === 'y'){
 //   /*console.log('Yes, she lives in WA.');*/
  alert('Yes, she lives in WA.');
-  } else {
+  } else if (liveWa ==='no' || liveWa === 'n'){
 //  /*console.log('You are wrong, try again');*/
 alert('You are wrong, try again');
    }
@@ -27,10 +27,10 @@ alert('You are wrong, try again');
 var liveJapan = prompt('Has Amelia lived in Japan');
 var liveJapanLowerCase = liveJapan.toLowerCase();
 
-if(liveJapan ==='yes' && liveJapan === 'y' || liveJapan ==='no' && liveJapan === 'n'){
+if(liveJapan ==='yes' || liveJapan === 'y'){
 //   /*console.log('Yes, she has lived in Tokyo, Japan.');*/
 alert('Yes, she has lived in Tokyo, Japan.');
-   } else {
+   } else if (liveJapan ==='no' || liveJapan === 'n') {
 //  /*console.log('She hasn\'t just lived in the United States.');*/
 alert('She hasn\'t just lived in the United States');
    }
@@ -39,10 +39,10 @@ alert('She hasn\'t just lived in the United States');
  var loveAnimals = prompt('Does Amelia love animals?');
  var loveAnimalsLowerCase = loveAnimals.toLowerCase();
 
-if(loveAnimals ==='yes' && loveAnimals ==='y' || loveAnimals === 'no' && loveAnimals === 'n'){
+if(loveAnimals ==='yes' || loveAnimals ==='y'){
 //   /*console.log('Yes, of course she does.');*/
   alert('Yes, of course she does.');
-  } else {
+  } else if (loveAnimals === 'no' || loveAnimals === 'n'){
 // /*console.log('Who doesn\'t love animals?');*/
   alert('Sorry, that is incoreect.');
    }
@@ -51,10 +51,10 @@ if(loveAnimals ==='yes' && loveAnimals ==='y' || loveAnimals === 'no' && loveAni
 var haveVolunteered = prompt('Has Amelia volunteered before?');
 var haveVolunteeredLowerCase = haveVolunteered.toLowerCase();
 
-if(haveVolunteered ==='yes' && haveVolunteered ==='y' || haveVolunteered ==='no' && haveVolunteered ==='n'){
+if(haveVolunteered ==='yes' || haveVolunteered ==='y'){
 //   /*console.log('Yes, at a animal shelter and at church.');*/
 alert('Yes, at a animal shelter and at church.');
-} else {
+} else if (haveVolunteered ==='no' || haveVolunteered ==='n') {
 //   /*console.log('Its good to volunteer.');*/
 alert('Its good to volunteer.');
      }
@@ -112,9 +112,9 @@ var questionSeven = '7 points';
 var nowScoreOne = prompt('Did you get question 1 correct?');
 var nowScoredOneLowerCase = nowScoredOne.toLowerCase();
 
-if(nowScoredOne ==='yes' && nowScoreOne ==='y' || nowScoredOne ==='no' && nowScoreOne === 'n'){
+if(nowScoredOne ==='yes' || nowScoreOne ==='y'){
   alert('You got ' + questionOne + '!');
-  } else {
+  } else if (nowScoredOne ==='no' && nowScoreOne === 'n'){
   alert('0 points');
        }
 
@@ -122,9 +122,9 @@ if(nowScoredOne ==='yes' && nowScoreOne ==='y' || nowScoredOne ==='no' && nowSco
 var nowScoreTwo = prompt('Did you get question 2 correct?');
 var nowScoredTwoLowerCase = nowScoredTwo.toLowerCase();
        
-if(nowScoredTwo ==='yes' && nowScoreTwo ==='y' || nowScoredTwo ==='no' && nowScoreTwo === 'n'){
+if(nowScoredTwo ==='yes' || nowScoreTwo ==='y'){
  alert('You got ' + questionTwo + '!');
-} else {
+} else if (nowScoredTwo ==='no' || nowScoreTwo === 'n'){
  alert('0 points');
      }
 
@@ -132,9 +132,9 @@ if(nowScoredTwo ==='yes' && nowScoreTwo ==='y' || nowScoredTwo ==='no' && nowSco
 var nowScoreThree = prompt('Did you get question 3 correct?');
 var nowScoredThreeLowerCase = nowScoredThree.toLowerCase();
             
-if(nowScoredThree ==='yes' && nowScoreThree ==='y' || nowScoredThree ==='no' && nowScoreThree === 'n'){
+if(nowScoredThree ==='yes' || nowScoreThree ==='y'){
 alert('You got ' + questionThree + '!');
-} else {
+} else if (nowScoredThree ==='no' || nowScoreThree === 'n'){
 alert('0 points');
     }
 
@@ -142,9 +142,9 @@ alert('0 points');
  var nowScoreFour = prompt('Did you get question 4 correct?');
  var nowScoredFourLowerCase = nowScoredFour.toLowerCase();
              
- if(nowScoredFour ==='yes' && nowScoreFour ==='y' || nowScoredFour ==='no' && nowScoreFour === 'n'){
+ if(nowScoredFour ==='yes' || nowScoreFour ==='y'){
  alert('You got ' + questionFour + '!');
- } else {
+ } else if (nowScoredFour ==='no' || nowScoreFour === 'n'){
  alert('0 points');
      }
 
@@ -152,9 +152,9 @@ alert('0 points');
  var nowScoreFive = prompt('Did you get question 5 correct?');
  var nowScoredFiveLowerCase = nowScoredFive.toLowerCase();
              
- if(nowScoredFive ==='yes' && nowScoreFive ==='y' || nowScoredFive ==='no' && nowScoreFive === 'n'){
+ if(nowScoredFive ==='yes' || nowScoreFive ==='y'){
  alert('You got ' + questionFive + '!');
- } else {
+ } else if(nowScoredFive ==='no' || nowScoreFive === 'n'){
  alert('0 points');
      }
 
@@ -162,9 +162,9 @@ alert('0 points');
  var nowScoreSix = prompt('Did you get question 6 correct?');
  var nowScoredSixLowerCase = nowScoredSix.toLowerCase();
              
- if(nowScoredSix ==='yes' && nowScoreSix ==='y' || nowScoredSix ==='no' && nowScoreSix === 'n'){
+ if(nowScoredSix ==='yes' || nowScoreSix ==='y'){
  alert('You got ' + questionSix + '!');
- } else {
+ } else if(nowScoredSix ==='no' || nowScoreSix === 'n') {
  alert('0 points');
      }
 
@@ -172,9 +172,9 @@ alert('0 points');
  var nowScoreSeven = prompt('Did you get most of question 7 correct?');
  var nowScoredSevenLowerCase = nowScoredSeven.toLowerCase();
              
- if(nowScoredSeven ==='yes' && nowScoreSeven ==='y' || nowScoredSeven ==='no' && nowScoreSeven === 'n'){
+ if(nowScoredSeven ==='yes' || nowScoreSeven ==='y'){
  alert('You got ' + questionSeven + '!');
- } else {
+ } else if (nowScoredSeven ==='no' || nowScoreSeven === 'n'){
  alert('0 points');
      }
 
@@ -182,9 +182,9 @@ alert('0 points');
  var nowScoreFinal = prompt('Did you get all the answers correct?');
  var nowScoredFinalLowerCase = nowScoredFinal.toLowerCase();
              
- if(nowScoredFinal ==='yes' && nowScoreFinal ==='y' || nowScoredFinal ==='no' && nowScoreFinal === 'n'){
+ if(nowScoredFinal ==='yes' || nowScoreFinal ==='y'){
  alert('If you got all the questions correct ' + questionSeven + ' ! You have won!');
- } else {
+ } else if (nowScoredFinal ==='no' || nowScoreFinal === 'n'){
  alert('You have lost! You needed ' + questionSeven + ' to win.');
      }
 
