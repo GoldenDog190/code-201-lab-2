@@ -3,7 +3,7 @@
 var languageStudy = prompt('Has Amelia studied Japanese?');
 var languageStudyLowerCase = languageStudy.toLowerCase();
 
-if(languageStudy ==='yes' || languageStudy ==='no'){
+if(languageStudy ==='yes' && languageStudy ==='y' || languageStudy ==='no' && languageStudy ==='n'){
 //   /*console.log('Yes, she has.');*/
    alert('Yes, she has.');
    } else {
@@ -15,7 +15,7 @@ if(languageStudy ==='yes' || languageStudy ==='no'){
 var liveWa = prompt('Does Amelia live in WA?');
 var liveWaLowerCase = liveWa.toLowerCase();
 
-if(liveWa ==='yes' || liveWa ==='no'){
+if(liveWa ==='yes' && liveWa === 'y'|| liveWa ==='no' && liveWa === 'n'){
 //   /*console.log('Yes, she lives in WA.');*/
  alert('Yes, she lives in WA.');
   } else {
@@ -27,7 +27,7 @@ alert('You are wrong, try again');
 var liveJapan = prompt('Has Amelia lived in Japan');
 var liveJapanLowerCase = liveJapan.toLowerCase();
 
-if(liveJapan ==='yes' || liveJapan ==='no'){
+if(liveJapan ==='yes' && liveJapan === 'y' || liveJapan ==='no' && liveJapan === 'n'){
 //   /*console.log('Yes, she has lived in Tokyo, Japan.');*/
 alert('Yes, she has lived in Tokyo, Japan.');
    } else {
@@ -39,19 +39,19 @@ alert('She hasn\'t just lived in the United States');
  var loveAnimals = prompt('Does Amelia love animals?');
  var loveAnimalsLowerCase = loveAnimals.toLowerCase();
 
-if(loveAnimals ==='yes' || loveAnimals ==='no'){
+if(loveAnimals ==='yes' && loveAnimals ==='y' || loveAnimals === 'no' && loveAnimals === 'n'){
 //   /*console.log('Yes, of course she does.');*/
   alert('Yes, of course she does.');
   } else {
 // /*console.log('Who doesn\'t love animals?');*/
-  alert('Who doesn\'t love animals?');
+  alert('Sorry, that is incoreect.');
    }
 
 // //=========Question 5============
 var haveVolunteered = prompt('Has Amelia volunteered before?');
 var haveVolunteeredLowerCase = haveVolunteered.toLowerCase();
 
-if(haveVolunteered ==='yes' || haveVolunteered ==='no'){
+if(haveVolunteered ==='yes' && haveVolunteered ==='y' || haveVolunteered ==='no' && haveVolunteered ==='n'){
 //   /*console.log('Yes, at a animal shelter and at church.');*/
 alert('Yes, at a animal shelter and at church.');
 } else {
