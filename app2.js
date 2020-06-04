@@ -98,8 +98,8 @@ place: while(counter < 6){
          }
   }
 }
- alert('You got' + counter + 'out of six.');
- 
+ alert('You got' + counter + 'out of six.' + 'These are all the places I have been to' + japanPlace + '.');
+
 //====Score===
 var questionOne = '1 point';
 var questionTwo = '2 points';
@@ -193,3 +193,5 @@ alert('0 points');
 var userName = prompt('What\'s your name?');
 //   /*console.log('Have a nice day!' + userName);*/
  alert('Have a nice day! ' + userName);
+
+
