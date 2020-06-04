@@ -108,24 +108,29 @@ function twentyEight() {
 twentyEight();
 
 // // //=========Question 7=============
-var counter = 0;
-place: while(counter < 6){
-  var japanPlace, jLen;
-  japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
-  jLen = japanPlace.length;
-  
-  for(var i = 0; i < jLen; i++) {
-    var answerGuess = prompt('Guess which places I have been to?');
-    //alert(japanPlace[i]);
-    if(answerGuess === japanPlace[i]){
-      alert(japanPlace[i] + 'is correct.')
-      break place;
-    } else {
-      alert ('Guess Again');
+
+function placesTraveled() {
+
+  var counter = 0;
+  place: while(counter < 6){
+    var japanPlace, jLen;
+    japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+    jLen = japanPlace.length;
+    for(var i = 0; i < jLen; i++) {
+      var answerGuess = prompt('Guess which places I have been to?');
+      //alert(japanPlace[i]);
+      if(answerGuess === japanPlace[i]){
+        alert(japanPlace[i] + 'is correct.')
+        break place;
+      } else {
+        alert ('Guess Again');
+      }
     }
   }
+  alert('You got' + counter + 'out of six.' + 'These are all the places I have been to' + japanPlace + '.');
 }
-alert('You got' + counter + 'out of six.' + 'These are all the places I have been to' + japanPlace + '.');
+
+placesTraveled();
 
 // //====Score===
 // var questionOne = '1 point';
