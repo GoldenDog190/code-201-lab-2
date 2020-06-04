@@ -76,14 +76,18 @@ while(counter < 4){
     counter++;
  }
 // //=========Question 7=============
-var japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
-var placeNumber = 0;
+var visitPlaces = prompt('What are the top places to visit in Japan?');
+var visitPlacesLowerCase = visitPlaces.toLowerCase();
 
-while(placeNumber < japanPlace.length){
-japanPlace[placeNumber] === Tokyo;
-animalNumber++;
+var japanPlace, jLen, i;
+japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+jLen = japanPlace.length;
+for(i = 0; i < jLen; itt) {
+  alert(japanPlace[i]);
 }
+
 //====Score===
+
 var msgBack;
 var score = 7;
 
