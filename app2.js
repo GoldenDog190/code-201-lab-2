@@ -98,7 +98,8 @@ place: while(counter < 6){
          }
   }
 }
-
+ alert('You got' + counter + 'out of six.');
+ 
 //====Score===
 var questionOne = '1 point';
 var questionTwo = '2 points';
@@ -114,7 +115,7 @@ var nowScoredOneLowerCase = nowScoredOne.toLowerCase();
 
 if(nowScoredOne ==='yes' || nowScoreOne ==='y'){
   alert('You got ' + questionOne + '!');
-  } else if (nowScoredOne ==='no' && nowScoreOne === 'n'){
+  } else if (nowScoredOne ==='no' || nowScoreOne === 'n'){
   alert('0 points');
        }
 
