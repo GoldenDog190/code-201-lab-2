@@ -112,7 +112,7 @@ twentyEight();
 
 //   for (var i = 0; i < 7; i++){
 //     var japans = propmpt('What cities do you think Amelia has been to?').toLowerCase(); 
-//     if(japans === japanArray[0] || japans === japanArray[1] || japans === japanArray[2] || japans === japanArray[3] || japans === japanArray[4] || japans === japanArray[5] || japans === japanArray[6]){
+//     if(japans === japanArray[0] || japans === japanArray[1] || japans === japanArray[2] || japans === japanArray[3] || japans === japanArray[4] || japans === japanArray[5]){
 //       console.log('yes');
 //       score++;
 //       alert('correct');
@@ -124,29 +124,34 @@ twentyEight();
 // }
 // placesTraveled();
 
-
+// alert('You answered' + score + 'correctly')
 
 // Other question 7 with different array
 function placesTraveled() {
 
   var counter = 0;
-  place: while(counter < 6){
+  
+  while(counter < 6){
     var japanPlace, jLen;
     japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
     jLen = japanPlace.length;
-    for(var i = 0; i < jLen; i++) {
-      var answerGuess = prompt('Guess which places I have been to?');
+    var answerGuess = prompt('Guess what towns I have been to in Japan?');
+    for(var i = 0; i < jLen; i++) {// check answers
+
       //alert(japanPlace[i]);
       if(answerGuess === japanPlace[i]){
-        alert(japanPlace[i] + 'is correct.')
-        break place;
+        alert(japanPlace[i] + ' is correct.')
+        alert('You answered correctly + These are all ' + japanPlace + " I have been in Japan.");
+        return;
+
       } else {
-        alert ('Guess Again');
+        
       }
+      alert ('I have been here before.');
     }
   }
   
-  alert('You answered correctly' + 'These are all the places I have been to' + japanPlace + ' in Japan.');
+  
 
 }
 
@@ -163,12 +168,14 @@ for (var i = 0; i , 7; i++){
    console.log('yes');
    score++;
    alert('Correct');
+   break;
   } else {
     console.log('no');
     alert('Wrong!');
   }
 }
 }
+
 answerNow();
 alert('You answered' + score + 'correctly');
 
