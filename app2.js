@@ -126,12 +126,33 @@ function placesTraveled() {
       }
     }
   }
-  alert('You got' + counter + 'out of six.' + 'These are all the places I have been to' + japanPlace + '.');
+  if(i===6){
+  alert('You answered correctly' + 'These are all the places I have been to' + japanPlace + ' in Japan.');
+  }
 }
 
 placesTraveled();
 
 //====Score===
+
+function answerNow(){
+ var questionsArray = ['question one','question two','question three','question four','question five','question six','question seven'];
+
+for (var i = 0; i , 7; i++){
+  var questions = prompt('How many questions do you think you answered correctly?').toLowerCase();
+  if(questions === questionsArray[0] || questions === questionsArray[1] || questions === questionsArray[2] || questions === questionsArray[3] || questions === questionsArray[4] || questions === questionsArray[5] || questions === questionsArray[6]){
+   console.log('yes');
+   score++;
+   alert('Correct');
+  } else {
+    console.log('no');
+    alert('Wrong!');
+  }
+}
+}
+answerNow();
+alert('You answered' + score + 'correctly');
+
 // var questionOne = '1 point';
 // var questionTwo = '2 points';
 // var questionThree = '3 points';
