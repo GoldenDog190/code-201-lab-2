@@ -173,6 +173,6 @@ answerNow();
 alert('You answered' + score + 'correctly');
 
 // //======Final Message========
-var userName = prompt('What\'s your name?');
+var userName = prompt('What\'s your name?').toLowerCase();
 //   /*console.log('Have a nice day!' + userName);*/
- alert('Have a nice day! ' + userName);
+ alert('Have a nice day! ' + userName + '!');
