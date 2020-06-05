@@ -1,8 +1,4 @@
 'use strict';
-<<<<<<< HEAD
-=======
-
->>>>>>> 9f6ad81c161c37f26b427fe8bf02552d64371cb6
 //Question 1
 
 function jsLanguage() {
