@@ -124,7 +124,6 @@ function placesTraveled() {
 }
 placesTraveled();
 alert('You answered' + score + 'correcty.');
-alert('Good job!');
 
 // Other question 7 
 // function placesTraveled() {
@@ -173,6 +172,6 @@ answerNow();
 alert('You answered' + score + 'correctly');
 
 // // //======Final Message========
-// var userName = prompt('What\'s your name?').toLowerCase();
-// //   /*console.log('Have a nice day!' + userName);*/
-//  alert('Have a nice day! ' + userName + '!');
+var userName = prompt('What\'s your name?').toLowerCase();
+//   /*console.log('Have a nice day!' + userName);*/
+ alert('Have a nice day! ' + userName + '!');
