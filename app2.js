@@ -153,15 +153,6 @@ for (var i = 0; i , 7; i++){
 answerNow();
 alert('You answered' + score + 'correctly');
 
-//  //======Final Score=====    
- var nowScoreFinal = prompt('Did you get all the answers correct?').toLowerCase();
-             
- if(nowScoredFinal ==='yes' || nowScoreFinal ==='y'){
-   alert('If you got all the questions correct ' + questionSeven + ' ! You have won!');
-  } else if (nowScoredFinal ==='no' || nowScoreFinal === 'n'){
-   alert('You have lost! You needed ' + questionSeven + ' to win.');
-     }
-
 // //======Final Message========
 var userName = prompt('What\'s your name?');
 //   /*console.log('Have a nice day!' + userName);*/
