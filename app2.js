@@ -126,9 +126,9 @@ function placesTraveled() {
       }
     }
   }
-  if(i===6){
+  
   alert('You answered correctly' + 'These are all the places I have been to' + japanPlace + ' in Japan.');
-  }
+
 }
 
 placesTraveled();
