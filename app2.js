@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 //Question 1
 var languageStudy = prompt('Has Amelia studied Japanese?').toLowerCase();
 
