@@ -132,7 +132,7 @@ function placesTraveled() {
 
   var counter = 0;
   
-  while(counter < 6){
+  while(counter < 5){
     var japanPlace, jLen;
     japanPlace = ['tokyo','kyoto','nara','osaka','kumamoto','kamakura'];
     jLen = japanPlace.length;
@@ -163,7 +163,7 @@ function scoreNum() {
 
   var correctAns = '7';
   var counter = 0;
-  while(counter < 3){
+  while(counter < 5){
     var numberGuess = prompt('How many quesions did you answer correctly?');
     console.log('chances guess', typeof numberGuess);
     if(numberGuess === correctAns){
@@ -181,10 +181,9 @@ scoreNum();
 //=====Final Goodbye to User=====
 function goodByeTo() {
   var userName = prompt ('What is your name?');
-   console.log (userName);
+   alert('Hello ' + userName + ', thanks for playing my game!')
    return userName;
   }
   
   goodByeTo();
   
-  console.log('Hello ' + userName + ', thanks for playing my game!')
