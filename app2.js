@@ -177,3 +177,14 @@ function scoreNum() {
 }
 
 scoreNum();
+
+//=====Final Goodbye to User=====
+function goodByeTo() {
+  var userName = prompt ('What is your name?');
+   console.log (userName);
+   return userName;
+  }
+  
+  goodByeTo();
+  
+  console.log('Hello ' + userName + ', thanks for playing my game!')
