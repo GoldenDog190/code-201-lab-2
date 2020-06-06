@@ -1,4 +1,5 @@
 'use strict';
+
 //Question 1
 
 function jsLanguage() {
@@ -133,21 +134,21 @@ function placesTraveled() {
   
   while(counter < 6){
     var japanPlace, jLen;
-    japanPlace = ['Tokyo','Kyoto','Nara','Osaka','Sapporo','Kamakura'];
+    japanPlace = ['tokyo','kyoto','nara','osaka','kumamoto','kamakura'];
     jLen = japanPlace.length;
-    var answerGuess = prompt('Guess what towns I have been to in Japan?');
-    for(var i = 0; i < jLen; i++) {// check answers
+    var answerGuess = prompt('Guess what cities I have been to in Japan?');
+    for(var i = 0; i < jLen; i++) { // check answers
 
       //alert(japanPlace[i]);
       if(answerGuess === japanPlace[i]){
         alert(japanPlace[i] + ' is correct.')
-        alert('You answered correctly + These are all ' + japanPlace + " I have been in Japan.");
+        alert('You answered correctly' + 'These are all the ' + japanPlace + ", I have been in Japan.");
         return;
 
       } else {
         
       }
-      alert ('I have been here before.');
+      alert ('I have been there before.');
     }
   }
   
@@ -157,29 +158,22 @@ function placesTraveled() {
 
 placesTraveled();
 
-//====Score===
+//====Score ===
+function scoreNum() {
 
-function answerNow(){
- var questionsArray = ['question 1','question 2','question 3','question 4','question 5','question 6','question 7'];
-
-for (var i = 0; i , 7; i++){
-  var questions = prompt('Which questions did you answer correctly?').toLowerCase();
-  if(questions === questionsArray[0] || questions === questionsArray[1] || questions === questionsArray[2] || questions === questionsArray[3] || questions === questionsArray[4] || questions === questionsArray[5] || questions === questionsArray[6]){
-   console.log('yes');
-   score++;
-   alert('Correct');
-   break;
-  } else {
-    console.log('no');
-    alert('Wrong!');
+  var correctAns = '7';
+  var counter = 0;
+  while(counter < 3){
+    var numberGuess = prompt('How many quesions did you answer correctly?');
+    console.log('chances guess', typeof numberGuess);
+    if(numberGuess === correctAns){
+      alert('Good job! You guessed all of the answers correctly');
+      break;
+    } else if (numberGuess < correctAns){
+      alert('Too bad you didn\'t get them all correct.');
+      counter++;
+    }
   }
 }
-}
 
-answerNow();
-alert('You answered' + score + 'correctly');
-
-// // //======Final Message========
-// var userName = prompt('What\'s your name?').toLowerCase();
-// //   /*console.log('Have a nice day!' + userName);*/
-//  alert('Have a nice day! ' + userName + '!');
+scoreNum();
