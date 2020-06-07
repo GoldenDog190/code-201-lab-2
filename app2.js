@@ -167,8 +167,8 @@ scoreNum();
 
 //=====Final Goodbye to User=====
 function goodByeTo() {
-  var userName = prompt ('What is your name?');
-   alert('Hello ' + userName + ', thanks for playing my game!')
+  var userName = prompt ('Did you enjoy my game?');
+   alert( userName + ', thanks for playing my game!')
    return userName;
   }
   

@@ -2,8 +2,6 @@
 head{
   font-weight: bold;
   font-family: serif;
-  color: azure;
-  background-color: darkcyan;
 }
 
 body{
@@ -17,40 +15,39 @@ body{
   padding-top: 15px;
 }
 
-#header{
+.head{
   text-align: center;
   font-size: 25px;
   color: azure;
   padding: 25px;
 }
-#h2{
-  text-align: center;
-  color: darkblue;
-  display:inline-block;
-  padding: 50px;
+.h2{
+  text-align: left;
+  color:azure;
+  padding: 30px;
 }
-p{
-  text-align: center;
+.para{
+  text-align: left;
   color: darkblue;
   display:inline-block;
   padding: 50px;
   
 }
-ol{
-  text-align: center;
-  color: rgb(69, 69, 218);
+.orli{
+  text-align: left;
+  color: darkblue;
   display:inline-block;
   padding: 20px;
 }
 
-ul{
-  text-align: center;
-  color: rgb(69, 69, 218);
+.unor{
+  text-align: left;
+  color: darkblue;
   display:inline-block;
   padding: 20px;
 }
-footer{
+.foot{
   text-align: center;
-  color: rgb(4, 65, 65);
+  color: azure;
   padding:10px;
 }
