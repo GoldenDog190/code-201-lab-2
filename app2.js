@@ -1,5 +1,14 @@
 'use strict';
 
+//=====Greeting to User=====
+function helloTo() {
+  var userGreeting = prompt ('What is your name?');
+   alert('Hello ' + userGreeting + ', welcome to my web page!')
+   return userGreeting;
+  }
+  
+  helloTo();
+
 //=========Question 1============
 
 function jsLanguage() {
